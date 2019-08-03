@@ -11,7 +11,7 @@ app.get('/runpy', (req, res) => {
     //   });
 
       const exec = require('child_process').exec;
-        var yourscript = exec('python /scripts/script1.py',
+        var yourscript = exec(`python ${__dirname}/scripts/script1.py`,
         (error, stdout, stderr) => {
             console.log(stdout);
             console.log(stderr);
