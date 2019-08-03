@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "pi-gpio": "0.0.8"
+    "express": "^4.17.1",
+    "pi-gpio": "0.0.8",
+    "python-shell": "^1.0.7"
   }
 }
